@@ -7,13 +7,15 @@ Markdown LiveEditor is a **real-time Markdown editor** with a **live preview**. 
 ## 🚀 Features
 
 ✅ **Live Markdown preview** as you type\
-✅ **Custom toolbar** with formatting buttons\
+✅ **Custom toolbar** with formatting buttons\ 
 ✅ **Dark theme with modern UI**\
 ✅ **Resizable editor & preview pane**\
 ✅ **Supports GitHub Flavored Markdown (GFM)**\
 ✅ **Keyboard shortcuts for Markdown elements**\
 ✅ **Automatic scrolling sync between editor and preview**
 
+## ScreenShot : 
+<img src="https://raw.githubusercontent.com/Taks-69/Markdown-LiveEditor/main/screen.png" width="900">
 ---
 
 ## 📥 Installation
@@ -110,4 +112,3 @@ This project is licensed under the GNU General Public License v3.0.
 ---
 
 🔥 **Feel free to star ⭐ the repository if you find this project useful!** 🚀
-
