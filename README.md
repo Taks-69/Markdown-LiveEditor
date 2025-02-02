@@ -15,7 +15,7 @@ Markdown LiveEditor is a **real-time Markdown editor** with a **live preview**. 
 ✅ **Automatic scrolling sync between editor and preview**
 
 ## ScreenShot : 
-<img src="https://raw.githubusercontent.com/Taks-69/Markdown-LiveEditor/main/image.svg" width="900">
+<img src="https://raw.githubusercontent.com/Taks-69/Markdown-LiveEditor/main/screen.png" width="900">
 
 ---
 
