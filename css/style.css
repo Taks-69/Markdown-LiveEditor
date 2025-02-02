@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+  }
+  
+  /* Header */
+  header {
+    background: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #33ff00;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  /* Main */
+  main {
+    padding: 1rem;
+  }
+  
+  /* Toolbar */
+  .toolbar {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .toolbar button {
+    background: #2b2b2b;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+  .toolbar button:hover {
+    background: #3c3c3c;
+    box-shadow: 0 0 8px #33ff00;
+  }
+  
+  /* Editor Container */
+  .editor-container {
+    display: flex;
+    height: 80vh;
+    border: 1px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #1e1e1e;
+  }
+  #editor {
+    width: 50%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    resize: none;
+    background: #1e1e1e;
+    color: #e0e0e0;
+    font-family: monospace;
+  }
+  #preview {
+    width: 50%;
+    padding: 1rem;
+    overflow-y: auto;
+    background: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  /* Custom Scrollbar for Preview */
+  #preview::-webkit-scrollbar {
+    width: 8px;
+  }
+  #preview::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  #preview::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+  #preview::-webkit-scrollbar-thumb:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Custom Scrollbar for Editor */
+  #editor::-webkit-scrollbar {
+    width: 8px;
+  }
+  #editor::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  #editor::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+  #editor::-webkit-scrollbar-thumb:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Divider */
+  #divider {
+    width: 4px;
+    background: #33ff00;
+    cursor: col-resize;
+  }
+  
+  /* Code Blocks in Preview */
+  #preview pre {
+    background: #2a2a2a;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  #preview code {
+    font-family: monospace;
+    color: #e0e0e0;
+  }
+  
+  /* Markdown Table Styling in Preview with Rounded Corners */
+  #preview table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1rem 0;
+    border: 1px solid #444;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  #preview th,
+  #preview td {
+    border: 1px solid #444;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  #preview th {
+    background-color: #2b2b2b;
+  }
+  #preview tr:nth-child(even) {
+    background-color: #1e1e1e;
+  }
+  

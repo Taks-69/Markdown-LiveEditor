@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown LiveEditor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Markdown LiveEditor</h1>
+  </header>
+  <main>
+    <div class="toolbar">
+      <button id="bold-btn"><strong>B</strong></button>
+      <button id="italic-btn"><em>I</em></button>
+      <button id="header-btn">H1</button>
+      <button id="hr-btn">―</button>
+      <button id="code-btn"><code>&lt;/&gt;</code></button>
+      <button id="code-block-btn">Code Block</button>
+      <button id="link-btn">🔗 Link</button>
+      <button id="image-btn">🖼 Image</button>
+      <button id="ul-btn">📑 UL</button>
+      <button id="ol-btn">🔢 OL</button>
+      <button id="quote-btn">💬 Quote</button>
+    </div>
+    <div class="editor-container">
+      <textarea id="editor" placeholder="Write Markdown here..."></textarea>
+      <div id="divider"></div>
+      <div id="preview"></div>
+    </div>
+  </main>
+  <!-- Marked.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
